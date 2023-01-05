@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-erp2=&nfhy!(5&w@c1o5(gya^@)4psp-x$e@hi@t(p^m5&8fe_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://hello-django-todo.herokuapp.com/']
+ALLOWED_HOSTS = ['hello-django-todo.herokuapp.com']
 
 
 # Application definition
