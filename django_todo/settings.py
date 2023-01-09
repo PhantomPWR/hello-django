@@ -31,9 +31,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-erp2=&nfhy!(5&w@c1o5(gya^@)4psp-x$e@hi@t(p^m5&8fe_')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = development
+DEBUG = development
 # DEBUG = False
-DEBUG = True
+# DEBUG = True
 
 if development:
     ALLOWED_HOSTS = ['localhost']
