@@ -40,7 +40,7 @@ DEBUG = True
 # else:
 #     ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
-ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+ALLOWED_HOSTS = 'hello-django-todo.herokuapp.com'
 
 
 # Application definition
