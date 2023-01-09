@@ -35,10 +35,12 @@ SECRET_KEY = 'django-insecure-erp2=&nfhy!(5&w@c1o5(gya^@)4psp-x$e@hi@t(p^m5&8fe_
 # DEBUG = False
 DEBUG = True
 
-if development:
-    ALLOWED_HOSTS = ['localhost']
-else:
-    ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+# if development:
+#     ALLOWED_HOSTS = ['localhost']
+# else:
+#     ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+
+ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
 
 # Application definition
