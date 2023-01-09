@@ -39,7 +39,7 @@ if development:
     ALLOWED_HOSTS = ['localhost']
 else:
     # ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
-    ALLOWED_HOSTS = 'hello-django-todo.herokuapp.com'
+    ALLOWED_HOSTS = '.herokuapp.com'
 
 
 # Application definition
